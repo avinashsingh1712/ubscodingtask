@@ -1,4 +1,4 @@
-package pl.koszela.jan.layer.facade.impl;
+package ubs.supermarket.layer.facade.impl;
 
 import java.util.Map;
 import org.junit.Before;
@@ -7,16 +7,16 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import pl.koszela.jan.layer.facade.dto.ItemDTO;
-import pl.koszela.jan.layer.facade.dto.PriceDTO;
-import pl.koszela.jan.layer.facade.dto.impl.DefaultItemDTO;
-import pl.koszela.jan.layer.facade.dto.impl.StockPriceDTO;
-import pl.koszela.jan.layer.service.ProductService;
+import ubs.supermarket.layer.facade.dto.ItemDTO;
+import ubs.supermarket.layer.facade.dto.PriceDTO;
+import ubs.supermarket.layer.facade.dto.impl.DefaultItemDTO;
+import ubs.supermarket.layer.facade.dto.impl.StockPriceDTO;
+import ubs.supermarket.layer.service.ProductService;
 
 /**
- * Created on 18.08.2017.
+ * Created on 24.09.2017.
  *
- * @author Jan Koszela
+ * @author Avinash Singh
  */
 @RunWith(MockitoJUnitRunner.class)
 public class DefaultProductFacadeTest {

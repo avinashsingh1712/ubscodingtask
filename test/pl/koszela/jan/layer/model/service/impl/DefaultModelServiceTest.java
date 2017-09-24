@@ -1,4 +1,4 @@
-package pl.koszela.jan.layer.model.service.impl;
+package ubs.supermarket.layer.model.service.impl;
 
 import java.util.Map;
 import org.junit.Before;
@@ -7,19 +7,19 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import pl.koszela.jan.layer.facade.dto.ItemDTO;
-import pl.koszela.jan.layer.facade.dto.PriceDTO;
-import pl.koszela.jan.layer.facade.impl.DefaultProductFacade;
-import pl.koszela.jan.layer.model.converter.Converter;
-import pl.koszela.jan.layer.model.domain.Price;
-import pl.koszela.jan.layer.model.domain.impl.Item;
-import pl.koszela.jan.layer.model.domain.impl.SpecialPrice;
-import pl.koszela.jan.layer.model.domain.impl.StockPrice;
+import ubs.supermarket.layer.facade.dto.ItemDTO;
+import ubs.supermarket.layer.facade.dto.PriceDTO;
+import ubs.supermarket.layer.facade.impl.DefaultProductFacade;
+import ubs.supermarket.layer.model.converter.Converter;
+import ubs.supermarket.layer.model.domain.Price;
+import ubs.supermarket.layer.model.domain.impl.Item;
+import ubs.supermarket.layer.model.domain.impl.SpecialPrice;
+import ubs.supermarket.layer.model.domain.impl.StockPrice;
 
 /**
- * Created on 18.08.2017.
+ * Created on 24.09.2017.
  *
- * @author Jan Koszela
+ * @author Avinash Singh
  */
 @RunWith(MockitoJUnitRunner.class)
 public class DefaultModelServiceTest {

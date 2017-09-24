@@ -1,4 +1,4 @@
-package pl.koszela.jan.layer.ui.controller;
+package ubs.supermarket.layer.ui.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,11 +12,11 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-import pl.koszela.jan.layer.facade.impl.DefaultCartFacade;
-import pl.koszela.jan.layer.facade.impl.DefaultProductFacade;
-import pl.koszela.jan.layer.ui.alerts.AlertManager;
-import pl.koszela.jan.layer.ui.constans.AttributeConstans;
-import pl.koszela.jan.layer.ui.constans.PathConstans;
+import ubs.supermarket.layer.facade.impl.DefaultCartFacade;
+import ubs.supermarket.layer.facade.impl.DefaultProductFacade;
+import ubs.supermarket.layer.ui.alerts.AlertManager;
+import ubs.supermarket.layer.ui.constans.AttributeConstans;
+import ubs.supermarket.layer.ui.constans.PathConstans;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.doThrow;
@@ -28,9 +28,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 /**
- * Created on 18.08.2017.
+ * Created on 24.09.2017.
  *
- * @author Jan Koszela
+ * @author Avinash Singh
  */
 @RunWith(MockitoJUnitRunner.class)
 public class BaseControllerTest {

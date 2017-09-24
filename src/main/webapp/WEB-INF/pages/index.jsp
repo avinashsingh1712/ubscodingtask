@@ -48,8 +48,8 @@
 
 <%@include file="fragments/menu.jspf" %>
 <div class="container" style="padding-top: 50px">
-    <h1>Maven + Spring MVC </h1>
-    <h2>Supermarket with Checkout mechanism Web Project Example</h2>
+    
+    <h2><center>Supermarket Solution</center></h2>
 </div>
 
 <c:if test="${currentPath == products}">

@@ -1,92 +1,15 @@
 [
+  
   {
     "id": 1,
-    "amount": 2,
-    "unit": 130,
-    "currency": "EUR"
-  },
-  {
-    "id": 1,
-    "amount": 3,
-    "unit": 190,
-    "currency": "EUR"
-  },
-  {
-    "id": 1,
-    "amount": 4,
-    "unit": 250,
-    "currency": "EUR"
-  },
-  {
-    "id": 3,
-    "amount": 3,
-    "unit": 150,
-    "currency": "EUR"
-  },
-  {
-    "id": 4,
-    "amount": 4,
-    "unit": 100,
-    "currency": "EUR"
-  },
-  {
-    "id": 5,
-    "amount": 3,
-    "unit": 4,
-    "currency": "EUR"
-  },
-  {
-    "id": 7,
-    "amount": 3,
-    "unit": 22,
-    "currency": "EUR"
-  },
-  {
-    "id": 8,
-    "amount": 3,
-    "unit": 200,
-    "currency": "EUR"
-  },
-  {
-    "id": 10,
-    "amount": 2,
-    "unit": 45,
-    "currency": "EUR"
-  },
-  {
-    "id": 10,
     "amount": 3,
     "unit": 70,
     "currency": "EUR"
-  },
+  },  
   {
-    "id": 12,
-    "amount": 3,
-    "unit": 240,
-    "currency": "EUR"
-  },
-  {
-    "id": 12,
-    "amount": 4,
-    "unit": 300,
-    "currency": "EUR"
-  },
-  {
-    "id": 14,
+    "id": 2,
     "amount": 2,
-    "unit": 38,
-    "currency": "EUR"
-  },
-  {
-    "id": 14,
-    "amount": 3,
-    "unit": 58,
-    "currency": "EUR"
-  },
-  {
-    "id": 14,
-    "amount": 4,
-    "unit": 70,
+    "unit": 15,
     "currency": "EUR"
   }
 ]

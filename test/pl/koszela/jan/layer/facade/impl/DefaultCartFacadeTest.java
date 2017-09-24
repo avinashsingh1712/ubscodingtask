@@ -1,4 +1,4 @@
-package pl.koszela.jan.layer.facade.impl;
+package ubs.supermarket.layer.facade.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
@@ -9,21 +9,21 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import pl.koszela.jan.layer.facade.dto.CartDTO;
-import pl.koszela.jan.layer.facade.dto.impl.DefaultCartDTO;
-import pl.koszela.jan.layer.facade.mapper.Mapper;
-import pl.koszela.jan.layer.facade.mapper.impl.Maps;
-import pl.koszela.jan.layer.model.domain.impl.Cart;
-import pl.koszela.jan.layer.model.domain.impl.Item;
-import pl.koszela.jan.layer.model.domain.impl.Order;
-import pl.koszela.jan.layer.model.domain.impl.StockPrice;
-import pl.koszela.jan.layer.service.dao.impl.DefaultCartDAO;
-import pl.koszela.jan.layer.service.impl.DefaultCartService;
+import ubs.supermarket.layer.facade.dto.CartDTO;
+import ubs.supermarket.layer.facade.dto.impl.DefaultCartDTO;
+import ubs.supermarket.layer.facade.mapper.Mapper;
+import ubs.supermarket.layer.facade.mapper.impl.Maps;
+import ubs.supermarket.layer.model.domain.impl.Cart;
+import ubs.supermarket.layer.model.domain.impl.Item;
+import ubs.supermarket.layer.model.domain.impl.Order;
+import ubs.supermarket.layer.model.domain.impl.StockPrice;
+import ubs.supermarket.layer.service.dao.impl.DefaultCartDAO;
+import ubs.supermarket.layer.service.impl.DefaultCartService;
 
 /**
- * Created on 18.08.2017.
+ * Created on 24.09.2017.
  *
- * @author Jan Koszela
+ * @author Avinash Singh
  */
 @RunWith(MockitoJUnitRunner.class)
 public class DefaultCartFacadeTest {

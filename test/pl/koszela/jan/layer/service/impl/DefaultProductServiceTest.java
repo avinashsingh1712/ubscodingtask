@@ -1,4 +1,4 @@
-package pl.koszela.jan.layer.service.impl;
+package ubs.supermarket.layer.service.impl;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -8,15 +8,15 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import pl.koszela.jan.layer.model.domain.Price;
-import pl.koszela.jan.layer.model.domain.impl.Item;
-import pl.koszela.jan.layer.model.domain.impl.StockPrice;
-import pl.koszela.jan.layer.model.service.impl.DefaultModelService;
+import ubs.supermarket.layer.model.domain.Price;
+import ubs.supermarket.layer.model.domain.impl.Item;
+import ubs.supermarket.layer.model.domain.impl.StockPrice;
+import ubs.supermarket.layer.model.service.impl.DefaultModelService;
 
 /**
- * Created on 18.08.2017.
+ * Created on 24.09.2017.
  *
- * @author Jan Koszela
+ * @author Avinash Singh
  */
 @RunWith(MockitoJUnitRunner.class)
 public class DefaultProductServiceTest {

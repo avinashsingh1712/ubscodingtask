@@ -1,4 +1,4 @@
-package pl.koszela.jan.layer.service.impl;
+package ubs.supermarket.layer.service.impl;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,15 +6,15 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import pl.koszela.jan.layer.model.domain.impl.Item;
-import pl.koszela.jan.layer.model.domain.impl.Order;
-import pl.koszela.jan.layer.model.domain.impl.StockPrice;
-import pl.koszela.jan.layer.service.dao.CartDAO;
+import ubs.supermarket.layer.model.domain.impl.Item;
+import ubs.supermarket.layer.model.domain.impl.Order;
+import ubs.supermarket.layer.model.domain.impl.StockPrice;
+import ubs.supermarket.layer.service.dao.CartDAO;
 
 /**
- * Created on 18.08.2017.
+ * Created on 24.09.2017.
  *
- * @author Jan Koszela
+ * @author Avinash Singh
  */
 @RunWith(MockitoJUnitRunner.class)
 public class DefaultCartServiceTest {

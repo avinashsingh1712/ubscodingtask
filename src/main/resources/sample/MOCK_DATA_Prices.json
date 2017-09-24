@@ -1,77 +1,22 @@
 [
   {
     "id": 1,
-    "unit": 72,
+    "unit": 40,
     "currency": "EUR"
   },
   {
     "id": 2,
-    "unit": 81,
-    "currency": "EUR"
+    "unit": 10,
+    "currency": "INR"
   },
   {
     "id": 3,
-    "unit": 61,
-    "currency": "EUR"
+    "unit": 30,
+    "currency": "PLN"
   },
   {
     "id": 4,
-    "unit": 34,
-    "currency": "EUR"
-  },
-  {
-    "id": 5,
-    "unit": 2,
-    "currency": "EUR"
-  },
-  {
-    "id": 6,
-    "unit": 93,
-    "currency": "EUR"
-  },
-  {
-    "id": 7,
-    "unit": 9,
-    "currency": "EUR"
-  },
-  {
-    "id": 8,
-    "unit": 74,
-    "currency": "EUR"
-  },
-  {
-    "id": 9,
-    "unit": 18,
-    "currency": "EUR"
-  },
-  {
-    "id": 10,
-    "unit": 28,
-    "currency": "EUR"
-  },
-  {
-    "id": 11,
-    "unit": 52,
-    "currency": "EUR"
-  },
-  {
-    "id": 12,
-    "unit": 90,
-    "currency": "EUR"
-  },
-  {
-    "id": 13,
-    "unit": 11,
-    "currency": "EUR"
-  },
-  {
-    "id": 14,
-    "unit": 22,
-    "currency": "EUR"
-  },
-  {
-    "id": 15,
-    "unit": 33,
-    "currency": "EUR"
+    "unit": 25,
+    "currency": "PLN"
   }
 ]
