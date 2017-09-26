@@ -49,17 +49,7 @@ public class DefaultCartDAO implements CartDAO {
     }
   }
 
-  private void removeOrderIfExists(Order order) {
-    if (isOrderExistsInCart(order)) {
-      removeOrder(order);
-    }
-  }
-
-  private boolean isOrderExistsInCart(Order order) {
-    return this.cart.getOrders().contains(order);
-  }
-
-  private boolean isValidQuantity(Order order) {
+   private boolean isValidQuantity(Order order) {
     return order.getQuantity() > 0;
   }
 
